@@ -88,7 +88,7 @@ In order to get the terminal and shell to work within an editor, such as VS Code
 
 In VS Code, the above can be accomplished by going to the **User Settings** (from the cogwheel at lower left corner) and add the following configurations:
 
-```sh
+```json
 "terminal.integrated.shell.windows": "C:\\FolderWhere\\EditorTerminalScriptIsLocated\\editorTerminalScript.bat",
 "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
 "terminal.integrated.fontSize": 14
