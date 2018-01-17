@@ -80,9 +80,9 @@ In order to get the terminal and shell to work within an editor, such as VS Code
     set TERM=xterm-256color
     set PATH="C:\cygwin64\bin";%PATH%
 
-    C:\cygwin64\bin\env.exe /bin/zsh -l -i
+    C:\cygwin64\bin\zsh.exe -l -i
     ```
-2. Now all you need is to tell the editor to use this script as the terminal, and to change its font. Note that **there isn't a variable *Font*** to set through the script (as in the other one). Maybe there's an alternative to **env.exe** which I don't know yet about.
+2. Now all you need is to tell the editor to use this script as the terminal, and to change its font. Note that **there isn't a variable *Font*** to set through the script (as in the other one). Maybe there's an alternative to **zsh** or **env.exe** which I don't know yet about.
 
 ### VS Code
 
@@ -180,7 +180,7 @@ set CHERE_INVOKING=1 & C:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico -o Fon
 
 In order to get it working inside VS Code and other editors, use the following batch script instead:
 ```sh
-C:\cygwin64\bin\env.exe /bin/zsh -l -i
+C:\cygwin64\bin\zsh.exe -l -i
 ```
 
 If you're using the explorer integration, but it's not opening the shell in the working directory, place the following  inside .zshrc file in C:\Users\username:
