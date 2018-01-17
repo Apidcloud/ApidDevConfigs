@@ -3,8 +3,8 @@
     "workbench.iconTheme": "eq-material-theme-icons",
     "terminal.integrated.shell.windows": "C:\\Users\\Luis\\Documents\\editorTerminalScript.bat",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
-    "terminal.integrated.fontSize": 12,
-    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 14,
+    "editor.fontSize": 14,
     // Controls the font family.
     "editor.fontFamily": "Fira Code",
     // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
