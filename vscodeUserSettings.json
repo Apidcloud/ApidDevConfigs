@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "terminal.integrated.shell.windows": "C:\\Users\\Luis\\Documents\\editorTerminalScript.bat",
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "terminal.integrated.fontSize": 12,
+    "editor.fontSize": 12,
+    // Controls the font family.
+    "editor.fontFamily": "Fira Code",
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 20,
+    // Enables font ligatures
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "boundary",
+    "explorer.autoReveal": true,
+    "explorer.openEditors.visible": 0,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.vscode": true,
+        "**/*.sublime-project": true,
+        "**/*.sublime-workspace": true,
+        "**/.github": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/coverage": true,
+        "**/build": true
+    },
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditorSelection": true,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile"
+}
