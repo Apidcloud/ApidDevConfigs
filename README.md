@@ -51,10 +51,7 @@ For now, this is a step-by-step guide to configure oh-my-zsh in Windows and allo
     $ echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
     ```
     ![Result of symbols rendering](https://imgur.com/5GGfJwQ.png)
-5. It should now be able to render the characters from the echo command
-    Note that to load the font correctly, **you might need** to **run that command everytime**.
-    To do so, you can start a zsh shell on demand, and add that batch script (.bat extension) to your path or start menu. 
-    As an alternative, you can install **ConEmu** and use it as default shell (startup task) command - see ConEmu section.
+5. It should now be able to render the characters from the echo command. Note that to load the font correctly, **you might need** to **run that command everytime**. To do so, you can start a zsh shell on demand, and add that batch script (.bat extension) to your path or start menu. As an alternative, you can install **ConEmu** and use it as default shell (startup task) command - see ConEmu section.
 
 # 256 colors Warning:
 
