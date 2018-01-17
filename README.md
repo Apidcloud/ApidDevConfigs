@@ -1,4 +1,4 @@
-# ApidDevConfigs
+# Apidcloud Development Configurations
 Personal Development Configurations - Shells, etc.
 
 For now, this is a step-by-step guide to configure oh-my-zsh in Windows and allow it to be used inside editors at will (e.g., VS Code, WebStorm)
