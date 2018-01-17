@@ -3,9 +3,7 @@ Personal Development Configurations - Shells, etc.
 
 For now, this is a step-by-step guide to configure oh-my-zsh in Windows and allow it to be used inside editors at will (e.g., VS Code, WebStorm)
 
-Useful resources:
-- https://gist.github.com/aviaryan/5a57aa25b140f6c48f0e
-- https://gist.github.com/kevin-smets/8568070
+![WithinVSCodeAndGit](https://imgur.com/tNDzdrb.png)
 
 # Basic Setup
 1. Install [Cygwin](https://www.cygwin.com/)
@@ -201,3 +199,7 @@ fi
 ![CustomizedWithPlugins](https://i.imgur.com/d6lJuHm.png)
 
 ![WithinVSCode](https://imgur.com/OjVwgOI.png)
+
+# Useful resources
+- https://gist.github.com/aviaryan/5a57aa25b140f6c48f0e
+- https://gist.github.com/kevin-smets/8568070
