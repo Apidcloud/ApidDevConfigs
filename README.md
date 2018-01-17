@@ -133,7 +133,7 @@ $ install apt-cyg /bin
 
 3. Reopen the terminal and run the following command:
     ```sh
-    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
+    $ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
     ```
 4. **If it shows suggestions as you type**, place the same command below the plugin line inside `.zshrc`
     **If it doesn't**, try other colour numbers (e.g., 5) until the suggestions are shown correctly and then copy to the file.
