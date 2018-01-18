@@ -3,12 +3,6 @@ export TERM="xterm-256color"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-#path+=("$HOME/usr/bin/git")
-#export PATH
-
-PYTHON=$PYTHON:/usr/bin/python2
-export PYTHON
-
 # Path to your oh-my-zsh installation.
 export ZSH=/cygdrive/c/Users/Luis/.oh-my-zsh
 
@@ -16,7 +10,6 @@ export ZSH=/cygdrive/c/Users/Luis/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
-
 
 #POWERLEVEL9K_MODE='awesome-patched'
 #POWERLEVEL9K_MODE='awesome-fontconfig'
@@ -39,6 +32,12 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 #POWERLEVEL9K_HOME_SUB_ICON=$' \uE18D'
 #POWERLEVEL9K_GIT_ICON=$' \uE20E'
 
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -83,7 +82,8 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-plugins+=(sublime)
+#plugins+=(sublime)
+plugins+=(vscode)
 plugins+=(zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
@@ -108,7 +108,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -125,5 +125,4 @@ alias pbpaste="cat /dev/clipboard"
 alias work="cd D:/Workspace"
 
 source ~/.solarized/mintty-solarized-dark.sh
-
-source /cygdrive/c/Users/Luis/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
