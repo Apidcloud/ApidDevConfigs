@@ -123,7 +123,7 @@ $ install apt-cyg /bin
     $ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
     ```
 
-2. Add the plugin to the list of plugins for Oh-My-Zsh to load:
+2. Add the plugin to the list of plugins to load (within `.zshrc`):
     ```sh
     plugins=(zsh-autosuggestions) # or plugins+= if you're using other plugins
     ```
@@ -135,6 +135,19 @@ $ install apt-cyg /bin
 4. **If it shows suggestions as you type**, place the same command below the plugin line inside `.zshrc`
     **If it doesn't**, try other colour numbers (e.g., 5) until the suggestions are shown correctly and then copy to the file.
 
+### VS Code
+
+1. Clone its repository to custom zsh plugins:
+    ```sh
+    $ git clone git@github.com:wuotr/zsh-plugin-vscode.git $ZSH_CUSTOM/plugins/zsh-plugin-vscode
+    ```
+    
+2. Add the plugin to the list of plugins to load (within `.zshrc`):
+    ```sh
+    plugins=(vscode) # or plugins+= if you're using other plugins
+    ```
+
+3. Reopen the terminal. `code` and `vscode` should now be working.
 
 # Additional Customization
 
