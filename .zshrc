@@ -118,11 +118,30 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.zshrc"
+alias ll="ls -a1"
+alias de="cd ~/Desktop"
+alias sz="source ~/.zshrc"
+alias pg="echo 'Pinging duckduckgo' && ping duckduckgo.com"
+alias -- -="cd -"
+
+# git aliases
+alias gs="git status"
+alias gd="git diff"
+alias ga="git add ."
+alias gp="git pull"
+alias gpush="git push"
+alias gf="git fetch"
+alias rmn="rm -rf node_modules"
+alias gdc="git diff --name-only --cached"
 
 alias pbcopy="cat >/dev/clipboard"
 alias pbpaste="cat /dev/clipboard"
 
 alias work="cd D:/Workspace"
+
+# custom functions
+mg () { mkdir "$@" && cd "$@" || exit; }
 
 source ~/.solarized/mintty-solarized-dark.sh
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
